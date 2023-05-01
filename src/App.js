@@ -1,11 +1,17 @@
 import React from 'react'
-
+import Home from './Home';
+import Navbar from './Navbar';
+import "./style.css"
 function App() {
+    const isLoading=true;
+    // if(isLoading) return <h1>Loading...</h1>
     return (
-        <div>
-            <h1>Hello CA209</h1>
-            <p>Kusoo dhawaa CA209</p>
 
+        <div className="app">
+            <Navbar/>
+            <div className="content">
+            {isLoading &&  <Home/>}
+            </div>
         </div>
     )
 }
