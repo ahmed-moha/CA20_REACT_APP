@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
     return (
         <div>
-            <navbar className="navbar">
+            <nav className="navbar">
                 <h1>WELCOME CA309</h1>
                 <div className="links"  >
                     <a href="/">Home</a>
@@ -14,7 +14,7 @@ function Navbar() {
                         borderRadius: 10
                     }}>Create Post</a>
                 </div>
-            </navbar>
+            </nav>
 
         </div>
     )

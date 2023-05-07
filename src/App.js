@@ -9,7 +9,7 @@ function App() {
 
         <div className="app">
             <Navbar/>
-            <div className="content">
+            <div className="contents">
             {isLoading &&  <Home/>}
             </div>
         </div>
